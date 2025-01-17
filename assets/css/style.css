@@ -1,0 +1,94 @@
+/* Reset styling */
+body,
+h1,
+a,
+table,
+th,
+td {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Styling untuk body */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f9f9f9;
+	color: #333;
+	padding: 20px;
+}
+
+/* Heading utama */
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+	color: #444;
+}
+
+/* Tombol Tambah Produk */
+a[href*="tambah"] {
+	text-decoration: none;
+	background-color: #28a745;
+	color: #fff;
+	padding: 10px 15px;
+	border-radius: 5px;
+	font-size: 14px;
+	transition: background-color 0.3s ease;
+}
+
+a[href*="tambah"]:hover {
+	background-color: #218838;
+}
+
+/* Tabel */
+table {
+	width: 100%;
+	margin-top: 20px;
+	border-collapse: collapse;
+	background-color: #fff;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+table thead {
+	background-color: #007bff;
+	color: #fff;
+}
+
+table th,
+table td {
+	text-align: left;
+	padding: 10px;
+	border: 1px solid #ddd;
+	font-size: 14px;
+}
+
+table tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+/* Tombol Edit dan Hapus */
+td a {
+	text-decoration: none;
+	font-size: 14px;
+	color: #007bff;
+	transition: color 0.3s ease;
+}
+
+td a:hover {
+	color: #0056b3;
+}
+
+td a[href*="hapus"] {
+	color: #dc3545;
+}
+
+td a[href*="hapus"]:hover {
+	color: #c82333;
+}
+
+/* Pesan Tidak Ada Data */
+td[colspan="5"] {
+	text-align: center;
+	color: #666;
+	font-style: italic;
+}

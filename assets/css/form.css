@@ -1,0 +1,89 @@
+/* Reset styling */
+body,
+h1,
+label,
+input,
+select,
+button,
+a {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f9;
+	color: #333;
+	padding: 20px;
+}
+
+/* Heading */
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+	color: #444;
+}
+
+/* Form container */
+form {
+	width: 100%;
+	max-width: 500px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Label */
+form label {
+	display: block;
+	margin-bottom: 8px;
+	font-weight: bold;
+}
+
+/* Input and Select */
+form input,
+form select {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 14px;
+}
+
+/* Button */
+form button {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+form button:hover {
+	background-color: #0056b3;
+}
+
+/* Back link */
+a {
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+	color: #007bff;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+a:hover {
+	color: #0056b3;
+	text-decoration: underline;
+}
